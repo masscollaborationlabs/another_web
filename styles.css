@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.column {
+    width: 100px;
+    height: 100%;
+    display: inline-block;
+    font-family: monospace;
+    font-size: 16px;
+    position: relative;
+    top: -50px;
+}
