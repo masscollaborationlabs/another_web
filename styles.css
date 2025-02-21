@@ -30,12 +30,13 @@ You should have received a copy of the GNU Affero General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-body {
+ body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+    background-color: black;
 }
 
 .column {
@@ -44,6 +45,12 @@ body {
     display: inline-block;
     font-family: monospace;
     font-size: 16px;
+    color: white;
     position: relative;
     top: -50px;
+    margin: 0 50px; /* Add horizontal margin of 50px on each side */
+}
+
+.column:hover {
+    color: red;
 }
