@@ -55,3 +55,9 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     color: red;
     cursor: pointer; /* Change cursor to hand symbol */
 }
+
+.column a:hover {
+    color: red;
+    cursor: pointer; /* Change cursor to hand symbol */
+}
+
